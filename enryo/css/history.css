@@ -1,0 +1,48 @@
+body * {
+  box-sizing: border-box;
+}
+
+body p {
+  line-height: 1.8;
+}
+
+body h1 {
+  font-size: 36px;
+  margin: 0 0 30px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+dl dt {
+  text-align: right;
+  width: 8.5em;
+  padding: 0.5em 1em 0.5em 0.5em;
+  position: relative;
+}
+
+dl dt::after {
+  content: "●";
+  position: absolute;
+  right: -0.55em;
+  top: 5px;
+  font-size: 22px;
+  color: green;
+}
+
+dl dd {
+  width: calc(100% - 8.5em);
+  padding: 0.5em 2em 3em;
+  border-left: 2px solid #ccc;
+}
+
+dl dd h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
