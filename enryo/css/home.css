@@ -1,0 +1,10 @@
+.sidebar{
+    width: 250px;
+    background-color:#808080;
+    color: black;
+    padding: 10px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+    line-height: 50px;
+}
