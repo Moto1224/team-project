@@ -36,3 +36,20 @@ body {
     margin-left: 220px; /* Sidebar width + some padding */
     padding: 20px;
 }
+
+
+.body {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ccc;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
