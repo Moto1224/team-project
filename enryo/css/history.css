@@ -3,13 +3,14 @@ body {
 }
 
 .sidebar {
-  width: 200px;
+  width: 250px;
+  background-color: #808080;
+  color: black;
   padding: 10px;
-  background-color: #f4f4f4;
-  border-right: 1px solid #ccc;
+  height: 100vh;
   position: fixed;
-  height: 100%;
-  overflow: auto;
+  overflow-y: auto;
+  line-height: 50px;
 }
 
 .sidebar h2 {
