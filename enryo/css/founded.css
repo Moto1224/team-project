@@ -53,3 +53,17 @@ body {
     flex: 1;
     padding: 20px;
 }
+
+.content h1 {
+    text-align: center;
+}
+
+img.example1 {
+    width: 40%;
+    height: 40%;
+}
+
+img.example2 {
+    width: 40%;
+    height: 40%;
+}
